@@ -1,0 +1,43 @@
+﻿@using front_to_back.Areas.Admin.ViewModels.CategoryComponent
+@model CategoryComponentDetailsViewModel
+<div class="main-panel">
+    <div class="content-wrapper">
+        <div class="row">
+            <div class="col-md-12 grid-margin stretch-card">
+                <div class="card">
+                    <div class="card-body">
+
+                        <p class="card-description">
+                            DElete Category
+                        </p>
+
+                        <span>TITLE:</span>
+                        <span>@Model.Title</span>
+
+                        <br />
+                        <br />
+                        <span>Description:</span>
+                        <span>@Html.Raw(Model.Description)</span>
+
+                          <br />
+                        <br />
+                        <span>Category:</span>
+                        <span>@Model.Categories.</span>
+
+                         <br />
+                        <br />
+                        <span>Image:</span>
+                        <span>@Model.Categories</span>
+                          <br />
+                        <br />
+                        
+
+                    </div>
+                    <button>
+                            <a class="btn btn-light" asp-action="index" asp-controller="category" asp-area="admin">Cancel</a>
+                        </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

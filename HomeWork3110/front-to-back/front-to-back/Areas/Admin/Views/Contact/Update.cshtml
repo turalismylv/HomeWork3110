@@ -1,0 +1,48 @@
+﻿@using front_to_back.Areas.Admin.ViewModels.Contact
+@model ContactIndexUpdateViewModel
+<div class="main-panel">
+    <div class="content-wrapper">
+        <div class="row">
+            <div class="col-md-12 grid-margin stretch-card">
+                <div class="card">
+                    <div class="card-body">
+
+                        <p class="card-description">
+                            Update team member
+                        </p>
+                        <form enctype="multipart/form-data" method="post" asp-action="update" asp-controller="contact" asp-area="admin" class="forms-sample">
+                           <input type="hidden" asp-for="PhotoPath" />
+                            <div class="form-group">
+                                <label asp-for="Title"></label>
+                                <input class="form-control" asp-for="Title">
+                                <span asp-validation-for="Title"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Title2"></label>
+                                <input class="form-control" asp-for="Title2">
+                                <span asp-validation-for="Title2"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Information"></label>
+                                <input class="form-control" asp-for="Information">
+                                <span asp-validation-for="Information"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Photo"></label>
+                                <img style="width:200px; height: 200px; border-radius: 50%;" src="~/assets/img/@Model.PhotoPath" />
+
+                                <input class="form-control" asp-for="Photo" />
+                                <span asp-validation-for="Photo"></span>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary me-2">Submit</button>
+
+                            <a class="btn btn-light" asp-action="index" asp-controller="contact" asp-area="admin">Cancel</a>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
