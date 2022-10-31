@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "r0Jdi7bdDZpGIdvycn1Aq0nC8P8KsVOKKofHlX0cMF4nF5buTbxluP/8J2hCFzPbABQq1gfz9ajer2Y1CXge2Q==",
+  "dgSpecHash": "lIDQWZqhkzEiwf3dHSgWe8cJRev2OcO7scGrnImj4KKOSOPBd81urP0Gt7IpoSw02025mmp1IdCOTP+LEukrRQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\HomeWorks\\HomeWork2510\\HomeWork2510\\HomeWork2410\\front-to-back\\front-to-back\\front-to-back.csproj",
+  "projectFilePath": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\HomeWorks\\HomeWork3110\\HomeWork3110\\front-to-back\\front-to-back\\front-to-back.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tursl\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\tursl\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

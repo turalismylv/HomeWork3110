@@ -159,6 +159,8 @@ namespace front_to_back.Areas.Admin.Controllers
         {
             var featureWorkComponent=await _appDbContext.FeaturedWorkComponent.Include(fwc=>fwc.FeatureWorkComponentPhotos).FirstOrDefaultAsync();
 
+            model.FeaturedWorkComponentPhotos = featureWorkComponent.FeatureWorkComponentPhotos.ToList();
+
             if (featureWorkComponent == null) return NotFound();
 
             if (!ModelState.IsValid) return View(model);
